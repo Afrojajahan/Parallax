@@ -1,0 +1,115 @@
+body{
+	margin: 0;
+	padding: 0;
+	text-align:center;
+	
+}
+.parallax1{
+	background: url("../images/tree.png");
+	min-height: 400px;
+}
+
+.parallax2{
+	background: url("../images/bg.png");
+	min-height: 300px
+}
+
+.parallax3{
+	background: url("../images/port.png");
+	min-height: 400px;
+}
+
+.parallax4{
+	background:url("../images/background.png"); 
+	min-height: 600px;
+}
+
+.parallax1, .parallax2, .parallax3, .parallax4 {
+	position: relative;
+	opacity: .95;
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+}
+.heading{
+	position: absolute;
+	color: #fff;
+	font-size: 75px;
+	top: 30%;
+	left: 35%;
+	text-transform: uppercase;
+	letter-spacing: 8px;
+	text-shadow: 0 0 10px #000;
+	width: 100px;
+}
+.heading-sm{
+	position: absolute;
+	top: 30%;
+	left: 35%;
+	color: #fff;
+	font-size: 75px;
+	text-transform: uppercase;
+	letter-spacing: 5px;
+	text-shadow: 0 0 10px #000;
+}
+.two-col{
+	width: 100%;
+	padding: 50px 80px;
+	text-align: justify;
+	overflow: auto;
+
+}
+.dark{
+	padding: 50px 80px;
+	background: #323232;
+	color: #f2f2f2;
+	overflow: auto;
+}
+
+@media(max-width: 992px){
+	.heading{
+		font-size: 60px;
+		text-align: center;
+	}
+	.heading-sm{
+		font-size: 60px;
+		text-align: center;
+	}
+
+}
+@media(max-width: 768px){
+
+	
+	.heading{
+		padding-top: 40px;
+		font-size: 50px;
+		text-align: center;
+	}
+	.heading-sm{
+		font-size: 40px;
+		text-align: center;
+	}
+	.two-col{
+		width: 100%;
+		padding: 20px;
+		text-align: center;
+		margin-bottom: 30px;
+	}
+}
+
+@media(max-width: 479px) {
+	.heading{
+		
+		margin-right:80px;
+		font-size: 30px;
+
+		
+	}
+	.heading-sm{
+		
+		padding-right: 70px;
+		font-size: 25px;
+		text-align: center;
+	}
+}
